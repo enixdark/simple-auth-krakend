@@ -1,4 +1,4 @@
-# krakend-simeple-auth
+# simple-auth-krakend
 
 simple Basic authentication midleware for the [KrakenD framework](https://github.com/devopsfaith/krakend).
 
@@ -12,18 +12,18 @@ Using this component is as easy as:
 
 ```
 "extra_config": {
-    "github.com/enixdark/krakend-simeple-auth": {
+    "github.com/enixdark/simple-auth-krakend": {
         "pass": "test",
         "user": "test"
     }
 }
 ```
 
-2. Import the right package for you. There is a `HandlerFactory` implementation for the two basic routing libs: `mux` & `gin`.
+2. Import the right package for you. There is a `HandlerFactory` implementation for the basic routing lib: `gin`.
 
 ```
 import(
-	auth "github.com/enixdark/krakend-simeple-auth"
+	auth "github.com/enixdark/simple-auth-krakend"
 )
 ```
 
